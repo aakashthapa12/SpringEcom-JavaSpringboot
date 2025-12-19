@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: SpringEcom
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/aakash
+    username: postgres
+    password: 0000
+
+    hikari:
+      auto-commit: false
+
+  jpa:
+    hibernate:
+      ddl-auto: update
